@@ -33,7 +33,7 @@ A boilerplate for building a backend project using Express, Prisma, and PostgreS
 
 1. **Clone the Repository:**
    ```bash
-   git clone [repository_url]
+   git clone https://github.com/honeyman22/backend-boilerplate.git
 
 2. **Install Dependencies:**
 
