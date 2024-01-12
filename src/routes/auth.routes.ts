@@ -11,6 +11,7 @@ router.post(
   AuthController.register
 );
 router.post("/api/v1/auth/login", validate(LoginSchema), AuthController.login);
+router.get("/api/v1/auth/alluser", AuthController.getalluser);
 
 const AuthRouter = router;
 export default AuthRouter;
