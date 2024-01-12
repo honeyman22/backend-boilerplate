@@ -55,7 +55,7 @@ A boilerplate for building a backend project using Express, Prisma, and PostgreS
  # Usage
 
  ## User Registration
-  Endpoint: `POST /api/auth/register` : Register a new user.
+  Endpoint: `POST /api/auth/register` 
   Request Body :    
   ```bash 
   {
@@ -69,12 +69,13 @@ A boilerplate for building a backend project using Express, Prisma, and PostgreS
    ```
 
 ## User Login
-  Endpoint: `POST /api/auth/login` : Register a new user.
-  Request Body :   ```bash
-{
+  Endpoint: `POST /api/auth/login` 
+  Request Body :  
+  ```bash
+ {
   "email": "user@example.com",
   "password": "password123"
-}
+ }
 ```
 
 
