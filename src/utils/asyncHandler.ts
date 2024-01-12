@@ -5,7 +5,6 @@ const asyncHandler = (controller: any) => {
     try {
       await controller(req, res);
     } catch (error) {
-      console.log(error, "tfuyrewqfueyyf");
       return next(error);
     }
   };

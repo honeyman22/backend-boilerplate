@@ -20,4 +20,6 @@ model User {
     gender GenderEnum 
     country String
     token String?
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
 }
