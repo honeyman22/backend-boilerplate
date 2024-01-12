@@ -25,8 +25,8 @@ A boilerplate for building a backend project using Express, Prisma, and PostgreS
 
  Make sure you have the following installed on your system:
 
- - Node.js (v14.17.4 or later)
- - PostgreSQL (v13.3 or later)
+ - Node.js (v20.9.0 or later)
+ - PostgreSQL (v16 or later)
 
 
 ## Getting Started
